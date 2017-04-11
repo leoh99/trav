@@ -1,0 +1,84 @@
+[古屋中部国际机场]
+category=airport
+img=http://www.centrair.jp/en/resource/images/all_index_btn_id.gif
+官网=http://www.centrair.jp
+名铁=http://trainbus.meitetsu.co.jp/pc/N1?_ga=1.163114812.1049820269.1490603718
+駅時刻表(名古屋鉄道)=http://trainbus.meitetsu.co.jp/pc/T2?sf=%E4%B8%AD%E9%83%A8%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF&rsf=9459-%E4%B8%AD%E9%83%A8%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF
+中部国際空港 - 名鉄名古屋=http://trainbus.meitetsu.co.jp/pc/N5?USR=PC&uid=21419&dir=2&path=2017032717402506&sf=9459-%E4%B8%AD%E9%83%A8%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF&st=4267-%E5%90%8D%E9%89%84%E5%90%8D%E5%8F%A4%E5%B1%8B&date=20170406&time=1530&sr=0&rp=0&ft=00010000WX6YWX6YEmSWX6YFMQ02SZ000000KN01i018z0000004J02p01720000004D07u016p0000&tx=24f310ab&ep=1&pn=3
+google map=https://www.google.com/maps/dir/Chubu+Centrair+International+Airport+(NGO),+1+Chome-1+Centrair,+Tokoname-shi,+Aichi-ken+479-0881,+Japan/35.1648651,136.8956192/@35.1638548,136.8947379,18z/data=!4m9!4m8!1m5!1m1!1s0x60047d93edcc29cf:0x42987d286e2c0025!2m2!1d136.8146005!2d34.8590935!1m0!3e3
+
+[名古屋 Lions Building]
+category=hotel
+img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Lions_Hotel_Nagoya_20140824.JPG/320px-Lions_Hotel_Nagoya_20140824.JPG
+Blog=https://en.kikou.io/entries/175
+
+[大须 名古屋]
+category=site
+img=http://inbound.nagoya-osu.com/en/wp-content/uploads/2012/08/%E5%A4%A7%E9%A0%88%E6%8F%90%E7%81%AF%E3%83%9D%E3%83%BC%E3%83%AB-768x512.jpg
+Blog=https://en.kikou.io/entries/278
+Osu Shopping District=http://inbound.nagoya-osu.com/en/
+Osu Shopping=http://triplerin.com/2015/04/where-to-shop-in-nagoya-osu-shopping-district.html
+
+[岐阜公园]
+category=site
+img=http://www.gifucvb.or.jp/en/image/01/01_03_im_01.jpg
+岐阜県観光連盟公式=http://www.kankou-gifu.jp
+岐阜城 金华山=http://www7b.biglobe.ne.jp/pukumami/travel/gifu_castle.html
+园区图=http://www.city.gifu.lg.jp/secure/9428/gifu-goannnai.pdf
+游记=http://athana.sakura.ne.jp/program/2011/08/08/%E5%B2%90%E9%98%9C%E5%85%AC%E5%9C%92%E3%81%A8%E5%B2%90%E9%98%9C%E5%9F%8E%EF%BC%8F%E4%BF%A1%E9%95%B7%E3%82%86%E3%81%8B%E3%82%8A%E3%81%AE%E5%9C%B0_%E5%89%8D%E7%AF%87/
+google map=https://www.google.com/maps/dir/Nagoya+Station,+Nagoya,+Aichi+Prefecture,+Japan/Gifu+Station,+Gifu,+Gifu+Prefecture,+Japan/@35.290235,136.6795013,11z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x600376e794d78b89:0x81f7204bf8261663!2m2!1d136.8815369!2d35.170915!1m5!1m1!1s0x6003a93773be07c3:0x18c44a3f47fec311!2m2!1d136.756647!2d35.409332!3e3?hl=en-US
+
+[岐阜市川原町界隈]
+category=site
+川原町散策=http://www.18rou.com/kawaramachi/
+岐阜長良川河畔 川原町=http://gifumatic.com/2015/09/column-14/
+img=http://www.gifucvb.or.jp/en/image/01/01_11_im01.jpg
+
+[名古屋站]
+category=station
+img=http://www.japantimes.co.jp/wp-content/uploads/2014/03/fv20140316a1c-200x200.jpg
+NAGOYA STATION=http://kikuko-nagoya.com/html/nagoya-station.html
+Nagoya Station Transfer Map=http://www.centrair.jp/en/to_and_from/access/nagoya_station.html
+名鉄名古屋駅発時刻表=http://www.meitetsu.co.jp/ekibetsu/timetable/timetable/tt120141.html?_ga=1.99336990.10498202
+
+[名古屋港水族馆]
+category=site
+img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Nagoya_Port_Aquarium_01.JPG/220px-Nagoya_Port_Aquarium_01.JPG
+官网=http://www.nagoyaaqua.com
+
+[热田神宫]
+category=site
+img=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Atsutajingu5.JPG/220px-Atsutajingu5.JPG
+官网=http://www.atsutajingu.or.jp/jingu/
+
+[荣 名古屋]
+category=site
+img=https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Nagoya_Sakae_area_from_Midland_Square.JPG/250px-Nagoya_Sakae_area_from_Midland_Square.JPG
+官网=http://www.nagoya-info.jp/en/access/area_map/sakae_area.html
+
+[名古屋城]
+category=site
+img=https://cache-graphicslib.viator.com/graphicslib/thumbs360x240/13441/SITours/private-nagoya-custom-one-day-tour-by-chartered-vehicle-in-nagoya-267381.jpg
+官网=http://www.nagoyajo.city.nagoya.jp
+
+[德川园 名古屋]
+category=site
+img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tokugawaen%EF%BC%95.JPG/220px-Tokugawaen%EF%BC%95.JPG
+官网=http://www.tokugawaen.city.nagoya.jp
+
+[正法寺 岐阜大仏]
+category=site
+img=http://okikuyihsot.travel.coocan.jp/gifudaibutsu-syouhouji8.jpg
+网址=http://okikuyihsot.travel.coocan.jp/gifudaibutsu-syouhouji.html
+
+[山本屋総本家]
+category=food
+img=https://rr.img.naver.jp/mig?src=http%3A%2F%2Fimgcc.naver.jp%2Fkaze%2Fmission%2FUSER%2F20130703%2F25%2F2612285%2F1%2F640x480x3e4d0b36f0526c5bd416bb27.jpg%2F300%2F600&twidth=300&theight=600&qlt=80&res_format=jpg&op=r
+官网=http://yamamotoya.co.jp/day/hajimari.html
+「山本屋総本家」「山本屋本店」味噌煮込みうど比較=http://nightrain.chu.jp/wp/?p=1163
+
+[つた蓬莱軒]
+category=food
+
+[天むす千寿]
+category=food
