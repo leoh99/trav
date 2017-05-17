@@ -2,22 +2,35 @@
 category=airport
 img=http://www.centrair.jp/en/resource/images/all_index_btn_id.gif
 官网=http://www.centrair.jp
-名铁=http://trainbus.meitetsu.co.jp/pc/N1?_ga=1.163114812.1049820269.1490603718
+名铁=http://www.meitetsu.co.jp/train/centrair/
 駅時刻表(名古屋鉄道)=http://trainbus.meitetsu.co.jp/pc/T2?sf=%E4%B8%AD%E9%83%A8%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF&rsf=9459-%E4%B8%AD%E9%83%A8%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF
-中部国際空港 - 名鉄名古屋=http://trainbus.meitetsu.co.jp/pc/N5?USR=PC&uid=21419&dir=2&path=2017032717402506&sf=9459-%E4%B8%AD%E9%83%A8%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF&st=4267-%E5%90%8D%E9%89%84%E5%90%8D%E5%8F%A4%E5%B1%8B&date=20170406&time=1530&sr=0&rp=0&ft=00010000WX6YWX6YEmSWX6YFMQ02SZ000000KN01i018z0000004J02p01720000004D07u016p0000&tx=24f310ab&ep=1&pn=3
+中部国際空港 - 名鉄名古屋=http://trainbus.meitetsu.co.jp/pc/N5?USR=PC&uid=46336&dir=58&path=2017051022658137&sf=9459-%E4%B8%AD%E9%83%A8%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF&st=4267-%E5%90%8D%E9%89%84%E5%90%8D%E5%8F%A4%E5%B1%8B&date=20170608&time=1530&sr=0&rp=0&ft=00010000WX9oWX9oEmSWX9oFMQ02SZ000000KN01i018z0000004J02p01720000004D07u016p0000&tx=24f310ab&ep=1&pn=3
+名鉄名古屋 - 中部国際空港=http://trainbus.meitetsu.co.jp/pc/N5?USR=PC&uid=46336&dir=58&path=2017051022658137&sf=4267-%E5%90%8D%E9%89%84%E5%90%8D%E5%8F%A4%E5%B1%8B&st=9459-%E4%B8%AD%E9%83%A8%E5%9B%BD%E9%9A%9B%E7%A9%BA%E6%B8%AF&date=20170612&time=1130&sr=0&rp=0&ft=00010000WX9sWX9sAmiWX9sBKp016p0000004D07r01720000004J038018z000000KN01A02SZ0000&tx=10ab24f3&ep=1&pn=3
 google map=https://www.google.com/maps/dir/Chubu+Centrair+International+Airport+(NGO),+1+Chome-1+Centrair,+Tokoname-shi,+Aichi-ken+479-0881,+Japan/35.1648651,136.8956192/@35.1638548,136.8947379,18z/data=!4m9!4m8!1m5!1m1!1s0x60047d93edcc29cf:0x42987d286e2c0025!2m2!1d136.8146005!2d34.8590935!1m0!3e3
 
 [名古屋 Lions Building]
 category=hotel
 img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Lions_Hotel_Nagoya_20140824.JPG/320px-Lions_Hotel_Nagoya_20140824.JPG
-Blog=https://en.kikou.io/entries/175
+ライオンズ名古屋ビル=https://www.mansion-note.com/mansion/1637668
+天气=http://www.tenki.jp/forecast/5/
+Free Wifi=https://nagoya-free-wifi.com/
+名古屋の食=https://haveagood.holiday/plans/49390
+元民推荐美味https://haveagood.holiday/plans/16314
+名古屋资讯=http://nagoya-sdg.jp/cn/
+螃蟹本家=https://www.google.co.jp/maps/search/%E3%81%8B%E3%81%AB%E6%9C%AC%E5%AE%B6/@35.1672278,136.9102093,14.54z
+世界の山ちゃ=https://www.google.com/maps/search/%E4%B8%96%E7%95%8C%E3%81%AE%E5%B1%B1%E3%81%A1%E3%82%83/@35.1675106,136.8972083,16z/data=!3m1!4b1
+蓬莱軒=https://www.google.co.jp/maps/search/%E3%81%82%E3%81%A4%E3%81%9F%E8%93%AC%E8%8E%B1%E8%BB%92/@35.1559455,136.8762398,13.08z
+風来坊=https://www.google.co.jp/maps/search/%E9%A2%A8%E6%9D%A5%E5%9D%8A/@35.1669624,136.8919317,15.33z
+居酒屋つばさや=https://www.google.co.jp/maps/search/%E3%81%A4%E3%81%B0%E3%81%95%E3%82%84/@35.1710447,136.8829717,14.5z
 
 [大须 名古屋]
 category=site
 img=http://inbound.nagoya-osu.com/en/wp-content/uploads/2012/08/%E5%A4%A7%E9%A0%88%E6%8F%90%E7%81%AF%E3%83%9D%E3%83%BC%E3%83%AB-768x512.jpg
 Blog=https://en.kikou.io/entries/278
-Osu Shopping District=http://inbound.nagoya-osu.com/en/
+大须散步地图=http://inbound.nagoya-osu.com/kn/?page_id=13
 Osu Shopping=http://triplerin.com/2015/04/where-to-shop-in-nagoya-osu-shopping-district.html
+也许是日本最有趣的商店街=http://japanshopping.org/zh-CN/archives/shopping_report/13302
+一边边走边吃，用优惠券=http://www.takayama-gh.com.c.sk.hp.transer.com/ankinitour/asobu/tabearuki/index.html
 
 [岐阜公园]
 category=site
@@ -33,6 +46,7 @@ category=site
 川原町散策=http://www.18rou.com/kawaramachi/
 岐阜長良川河畔 川原町=http://gifumatic.com/2015/09/column-14/
 img=http://www.gifucvb.or.jp/en/image/01/01_11_im01.jpg
+BUS=http://busmap.info/map/?q=%E5%B2%90%E9%98%9C%E5%B8%82
 
 [名古屋站]
 category=station
@@ -40,11 +54,16 @@ img=http://www.japantimes.co.jp/wp-content/uploads/2014/03/fv20140316a1c-200x200
 NAGOYA STATION=http://kikuko-nagoya.com/html/nagoya-station.html
 Nagoya Station Transfer Map=http://www.centrair.jp/en/to_and_from/access/nagoya_station.html
 名鉄名古屋駅発時刻表=http://www.meitetsu.co.jp/ekibetsu/timetable/timetable/tt120141.html?_ga=1.99336990.10498202
+名古屋→岐阜=http://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=%E5%90%8D%E5%8F%A4%E5%B1%8B&eki2=%E5%B2%90%E9%98%9C&eki3=&via_on=1&Dym=201706&Ddd=9&Dhh=8&Dmn1=3&Dmn2=0&Cway=0&Cfp=1&Czu=2&C7=1&C2=0&C3=0&C1=0&C4=0&C6=2&S.x=46&S.y=13&S=%E6%A4%9C%E7%B4%A2&Cmap1=&rf=nr&pg=0&eok1=R-&eok2=R-&eok3=&Csg=1
+名古屋-岐阜=https://www.navitime.co.jp/transfer/searchlist?orvStationName=%E5%90%8D%E5%8F%A4%E5%B1%8B&dnvStationName=%E5%B2%90%E9%98%9C&thrStationName1=&thrStationCode1=&thrStationName2=&thrStationCode2=&thrStationName3=&thrStationCode3=&month=2017%2F06&day=09&hour=8&minute=30&orvStationCode=00008576&dnvStationCode=00001467&basis=1&from=view.transfer.searchlist&sort=0&wspeed=100&accidentRailCode=&accidentRailName=&isrec=
+岐阜→名古屋=http://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=%E5%B2%90%E9%98%9C&eki2=%E5%90%8D%E5%8F%A4%E5%B1%8B&eki3=&via_on=1&Dym=201706&Ddd=9&Dhh=17&Dmn1=3&Dmn2=0&Cway=0&Cfp=1&Czu=2&C7=1&C2=0&C3=0&C1=0&C4=0&C6=2&S.x=59&S.y=22&S=%E6%A4%9C%E7%B4%A2&Cmap1=&rf=nr&pg=0&eok1=R-&eok2=R-&eok3=&Csg=1
+岐阜-名古屋=https://www.navitime.co.jp/transfer/searchlist?orvStationName=%E5%B2%90%E9%98%9C&dnvStationName=%E5%90%8D%E5%8F%A4%E5%B1%8B&thrStationName1=&thrStationCode1=&thrStationName2=&thrStationCode2=&thrStationName3=&thrStationCode3=&month=2017%2F06&day=09&hour=17&minute=30&orvStationCode=00001467&dnvStationCode=00008576&basis=1&from=view.transfer.top&sort=0&wspeed=100&airplane=1&sprexprs=1&utrexprs=1&othexprs=1&mtrplbus=1&intercitybus=1&ferry=1&ctl=020010&atr=2&init=
 
 [名古屋港水族馆]
 category=site
 img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Nagoya_Port_Aquarium_01.JPG/220px-Nagoya_Port_Aquarium_01.JPG
 官网=http://www.nagoyaaqua.com
+游记=https://nurseilife.cc/port-of-nagoya-public-aquarium/
 
 [热田神宫]
 category=site
@@ -70,6 +89,7 @@ img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tokugawaen%EF%BC%9
 category=site
 img=http://okikuyihsot.travel.coocan.jp/gifudaibutsu-syouhouji8.jpg
 网址=http://okikuyihsot.travel.coocan.jp/gifudaibutsu-syouhouji.html
+ＪＲ岐阜→岐阜公園歴史博物館前=http://navi.gifubus.co.jp/Frm_0160.aspx?ge=ti_1l9_34u_4oe_5g6_67y&id=1r88iu&ia=1r88gg&d=1&t=0945&a=1&tt=1&cm=1&ds=%EF%BC%AA%EF%BC%B2%E5%B2%90%E9%98%9C&as=%E5%B2%90%E9%98%9C%E5%85%AC%E5%9C%92%E6%AD%B4%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8%E5%89%8D&inpym=2017%2f05&inpymd=2017%2f05%2f10&inpt=0945&inpa=1
 
 [山本屋総本家]
 category=food
@@ -82,3 +102,23 @@ category=food
 
 [天むす千寿]
 category=food
+
+[名古屋市 やきとり角屋]
+category=food
+
+[伍味酉本店]
+category=food
+
+[犬山城]
+category=site
+img=https://inuyama.gr.jp/wordpress/wp-content/uploads/2015/12/D33F2128_-1-520x350.jpg
+国宝犬山城=http://inuyama-castle.jp/castle/castle-tower
+犬山周辺=https://haveagood.holiday/plans/2875
+名鉄名古屋－犬山遊園=http://trainbus.meitetsu.co.jp/pc/N5?USR=PC&uid=69741&dir=35&path=20170513194435901&sf=4267-%E5%90%8D%E9%89%84%E5%90%8D%E5%8F%A4%E5%B1%8B&st=3876-%E7%8A%AC%E5%B1%B1%E9%81%8A%E5%9C%92&date=20170611&time=0830&sr=0&rp=0&ft=00010000WX9rWX9r8JUWX9r8jm016p0000004R08D010W0000&tx=10ab0f24&ep=1&pn=3
+犬山－名鉄名古屋=http://trainbus.meitetsu.co.jp/pc/N5?USR=PC&uid=12038&dir=59&path=20170513194859822&sf=3874-%E7%8A%AC%E5%B1%B1&st=4267-%E5%90%8D%E9%89%84%E5%90%8D%E5%8F%A4%E5%B1%8B&date=20170611&time=1730&sr=0&rp=0&ft=00010000WX9rWX9rGUuWX9rGtQ010U0000004R06F016p0000&tx=0f2210ab&ep=1&pn=3
+
+[犬山城下町]
+category=site
+img=http://tourguides.nagoya/img/inuyama/jokamachi1.jpg
+城下町散策=http://www.meitetsu.co.jp/files/osusume/inuyama-sanpo/model_course/01/
+犬山城下町=http://www.meitetsu.co.jp/files/osusume/inuyama-sanpo/information/01/
