@@ -38,8 +38,11 @@
   })();
 
   var map = (function() {
-    var dot1 = "https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png";
-    var dot2 = "https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png";
+    var iconBase = "https://maps.gstatic.com/mapfiles/ms2/micons/";
+    var icons = {
+        "transit": iconBase + "blue.png",
+        "food": iconBase + "yellow.png"
+      };
     var markers = [];
     var map, geocoder, infowindow;
 
@@ -77,10 +80,15 @@
       return pos[1] + ',' + pos[0];
     };
 
+    var getIcon = function(f) {
+      var cat = f.properties.category;
+      return icons[cat];
+    };
+
     var addMarker = function(f) {
-      var loc = getLatLng(f);
       var marker = new google.maps.Marker({
-        position: loc,
+        position: getLatLng(f),
+        icon: getIcon(f),
         map: map
       });
 
@@ -319,7 +327,6 @@
           "callback": gotAddr
         }
       ];
-
       search(ff, pp, allDone)
     }
 
@@ -338,7 +345,7 @@
                 "id": n,
                 "name": name,
                 "description": "",
-                "category": "no",
+                "category": "none",
                 "links": []
               }
             };
@@ -449,63 +456,98 @@
         showMap('#map2');
       });
 
-      $("#header1").on("swipeleft", function(event) {
+      $("#header1").on("swiperight", function(event) {
         if (curday > 0) {
           showList(curday - 1);
         }
       });
 
-      $("#header1").on("swiperight", function(event) {
+      $("#header1").on("swipeleft", function(event) {
         if (curday < data.days().length - 1) {
           showList(curday + 1);
         }
       });
     };
 
+    var isListItem = function(f) {
+      return f.properties.category=='site' || 
+             f.properties.category=='hotel' || 
+             f.properties.category=='airport';
+    };
+
+    var refreshView = function(list, items) {
+      $(list).html(items.join(""));
+      $(list).listview().listview('refresh');
+    }
+    
     function showList(day) {
       curday = day;
       features = data.listByDay(day);
       var items = [];
+      var ff = [];
       $.each(features, function(i, f) {
         var prop = f.properties;
-        items.push(
-          '<li data-icon="arrow-r" id="' + i + '">' +
-          '<a href="javascript:trav.page.showPlace(' + i + ');" >' +
-          '<img src="' + prop.img + '">' +
-          '<h2>' + prop.name + '</h2>' +
-          '<p>' + prop.description + '</p>' +
-          '</a>' +
-          '<a href="javascript:trav.page.showTransit(' + i + ')"></a>' +
-          '</li>');
+        if (isListItem(f)) {
+          ff.push(f);
+          items.push(
+            '<li data-icon="arrow-r" id="' + i + '">' +
+            '<a href="javascript:trav.page.showPlace(' + i + ');" >' +
+            '<img src="' + prop.img + '">' +
+            '<h2>' + prop.name + '</h2>' +
+            '<p>' + prop.description + '</p>' +
+            '</a>' +
+            '<a href="javascript:trav.page.showTransit(' + i + ')"></a>' +
+            '</li>');
+        }
       });
-      $('#main-list').html(items.join(""));
-      $('#main-list').listview().listview('refresh');
+      refreshView('#main-list', items);
       showDate(day);
-      map.zoomFit(features);
+      map.zoomFit(ff);
       $.mobile.navigate(PAGE1);
     }
 
     function showPlace(index) {
-      var f = data.feature(curday, index);
+      var f = features[index];
       $('#header2 p').html(f.properties.name);
-      var html = '<ul id="link-list" data-role="listview" data-inset="false">';
+      var items = [];
       $.each(f.properties.links, function(idx, obj) {
-        html += '<li><a href="' + obj.url + '" target="_blank">' +
+        items.push('<li><a href="' + obj.url + '" target="_blank">' +
           '<h2>' + obj.title + '</h2>' +
-          '</a></li>';
+          '</a></li>');
       });
-      html += '</ul>'
-      $('#main2').html(html).trigger('create');
+      refreshView('#info-list', items);
       map.zoomFit([f]);
       $.mobile.navigate(PAGE2);
     }
 
     function showTransit(index) {
-      var ff = [data.feature(curday, index), data.feature(curday, index + 1)];
-      $('#header2 p').html(
+      var items = [];
+      var i = index + 1;
+      while (i<features.length) {
+        var prop = features[i].properties;       
+        if (prop.category != 'transit')
+          break;
+        items.push(
+            '<li><a href="javascript:trav.page.showPlace(' + i + ');" >' +
+           // '<img src="' + prop.img + '">' +
+            '<h2>' + prop.name + '</h2>' +
+            '<p>' + prop.description + '</p>' +
+            '</a>' +
+            '</li>');
+        i++;
+      }
+      refreshView('#info-list', items);
+
+      var ff = [features[index]];
+      if (i<features.length) {
+        ff.push(features[i]);
+        $('#header2 p').html(
         '<a href="' + map.getDirLink(ff[0], ff[1]) + '" target="_blank ">' +
         ff[0].properties.name + ' - ' + ff[1].properties.name + '</a>');
-      $('#main2').empty();
+      } else {
+         $('#header2 p').html(ff[0].properties.name);
+      }      
+
       map.zoomFit(ff);
       $.mobile.navigate(PAGE2);
     }
@@ -540,7 +582,9 @@
     $.when(loadJsonFile(place + '.json'), loadJsonFile(place + '_itry.json'))
       .done(function(data1, data2) {
         data.init(data1, data2);
-        map.initMap('map');
+        try {
+          map.initMap('map');
+        } catch(err) {}
         page.init();
       });
   }
@@ -553,7 +597,7 @@
 
 $(document).ready(function() {
   trav.init("na");
-
+  
   document.getElementById('file').onchange = function() {
     var file = this.files[0];
     trav.utils.process(file);
