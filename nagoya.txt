@@ -1,5 +1,5 @@
 [名古屋 Lions Building]
-category=hotel
+category=site
 img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Lions_Hotel_Nagoya_20140824.JPG/320px-Lions_Hotel_Nagoya_20140824.JPG
 ライオンズ名古屋ビル=https://www.mansion-note.com/mansion/1637668
 天气=http://www.tenki.jp/forecast/5/
@@ -13,13 +13,16 @@ Free Wifi=https://nagoya-free-wifi.com/
 風来坊=https://www.google.co.jp/maps/search/%E9%A2%A8%E6%9D%A5%E5%9D%8A/@35.1669624,136.8919317,15.33z
 居酒屋つばさや=https://www.google.co.jp/maps/search/%E3%81%A4%E3%81%B0%E3%81%95%E3%82%84/@35.1710447,136.8829717,14.5z
 コメダ珈琲店=https://www.google.co.jp/maps/place/%E3%82%B3%E3%83%A1%E3%83%80%E7%8F%88%E7%90%B2%E5%BA%97%E6%A0%84%E4%B8%80%E4%B8%81%E7%9B%AE%E5%BA%97/@35.1661042,136.89263,17z/data=!4m5!3m4!1s0x6003772859c762bd:0x3f12baeecc5b7561!8m2!3d35.166466!4d136.8949338
+カフェドクリエ 名古屋=https://www.google.com/maps/search/%E3%82%AB%E3%83%95%E3%82%A7%E3%83%89%E3%82%AF%E3%83%AA%E3%82%A8+%E5%90%8D%E5%8F%A4%E5%B1%8B/@35.1682067,136.8919548,16z
 無印良品=https://www.google.co.jp/maps/search/%E7%84%A1%E5%8D%B0%E8%89%AF%E5%93%81/@35.1674963,136.8879017,14.75z
 名古屋特产=https://www.funtime.com.tw/blog/funtime/%E6%97%A5%E6%9C%AC-%E5%90%8D%E5%8F%A4%E5%B1%8B%E4%B8%8D%E5%8F%AF%E9%8C%AF%E9%81%8E%E7%9A%84%E8%B3%BC%E7%89%A9%E8%81%96%E5%9C%B0%E5%92%8C%E4%BC%B4%E6%89%8B%E7%A6%AE%E6%8E%A8%E8%96%A6
 
 [中部国際空港]
-category=airport
+category=site
 img=http://www.centrair.jp/en/resource/images/all_index_btn_id.gif
 官网=http://www.centrair.jp
+中部國際空港介紹=https://nicklee.tw/?p=1034
+日本名古屋中部國際空港=https://translate.google.com/translate?sl=auto&tl=zh-CN&js=y&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Fch3126.pixnet.net%2Fblog%2Fpost%2F105327890-%25E6%2597%25A5%25E6%259C%25AC%25E5%2590%258D%25E5%258F%25A4%25E5%25B1%258B%25E4%25B8%25AD%25E9%2583%25A8%25E5%259C%258B%25E9%259A%259B%25E7%25A9%25BA%25E6%25B8%25AF%25E6%2590%25AD%25E5%2590%258D%25E9%2590%25B5%25E9%259B%25BB%25E8%25BB%258A%25E4%25B9%258B%25E8%25A1%258C&edit-text=&act=url
 
 [中部国際空港駅]
 category=transit
@@ -87,10 +90,10 @@ category=transit
 地铁站图=http://www.kotsu.city.nagoya.jp/jp/pc/subway/station_campus.html?name=%E7%A5%9E%E5%AE%AE%E8%A5%BF
 
 [岐阜市歴史博物館前駅]
-category=bus
+category=transit
 
 [長良橋駅]
-category=bus
+category=transit
 
 [大须观音]
 category=site
@@ -162,6 +165,7 @@ img=https://nicklee.tw/attachments/201109/0052605070.jpg
 
 [栄 森の地下街]
 category=site
+img=http://nagoya-area.net/weblog/wp-content/uploads/1/20100227-%E6%A0%84%E3%81%AE%E5%A4%9C%E6%99%AF1.jpg
 栄地图=http://www.nagoya-info.jp/en/access/area_map/sakae_area.html
 案内=http://www.chikashin.com/town/sakae.html
 名古屋栄=http://hsuan812.pixnet.net/blog/post/312261987-%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%A6%AE--%E8%A1%80%E6%8B%9A%E9%80%9B%E8%A1%97%26%E6%BC%AB%E6%AD%A5%E5%9C%B0%E5%9C%96%E5%AE%8C%E5%85%A8%E6%94%BB%E7%95%A5
